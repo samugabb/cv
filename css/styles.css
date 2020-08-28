@@ -1,0 +1,121 @@
+* {
+  color: #eeeeee;
+}
+
+body {
+  line-height: 2rem;
+  position: relative;
+}
+
+.top-container {
+  background-color: #393e46;
+  height: 80vh;
+  padding-top: 7vh;
+}
+
+h1 {
+  text-align: center;
+  font-family: pacifico;
+  padding-top: 4rem;
+}
+
+h2 {
+    font-family: Montserrat;
+}
+
+.code-top-image {
+
+}
+
+.top-image {
+  width: 50%;
+}
+
+.starman-top-image {
+  width: 150px;
+  position: relative;
+  top: 7%;
+  left: 30%;
+}
+
+.workplaces-info {
+  padding-bottom: 2rem;
+}
+
+.navbar {
+  background-color: #00adb5;
+  height: 7vh;
+}
+
+.profile-info {
+  background-color: #00adb5;
+  padding: 0 25% 2rem;
+  text-align: center;
+}
+
+#experiences {
+  background-color: #393e46;
+}
+
+#about-me {
+  background-color: #00adb5;
+}
+
+.skills {
+  background-color: #393e46;
+}
+
+.contact-info {
+  background-color: #00adb5;
+}
+
+p {
+  margin-bottom: 0;
+  font-family: Montserrat;
+}
+
+.certificates-info {
+  text-align: justify;
+}
+
+li {
+  font-family: Montserrat;
+}
+
+strong {
+  color: #00adb5;
+}
+
+.certificate-img {
+  width: 50%;
+}
+
+.job-img {
+  width: 50%;
+  padding-top: 1rem;
+}
+
+.row {
+  margin: 0;
+}
+
+.code {
+  width: 100%;
+}
+
+.research {
+  width: 100%;
+}
+
+.challenge {
+  width: 80%;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.copyright {
+  background-color: #393e46;
+}
