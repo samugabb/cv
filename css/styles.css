@@ -1,15 +1,12 @@
-* {
-  color: #eeeeee;
-}
-
 body {
   line-height: 2rem;
   position: relative;
+    color: #eeeeee;
 }
 
 .top-container {
   background-color: #393e46;
-  height: 80vh;
+  /*height: 80vh;*/
   padding-top: 7vh;
 }
 
@@ -24,7 +21,7 @@ h2 {
 }
 
 .code-top-image {
-
+  width: 60%;
 }
 
 .top-image {
@@ -44,7 +41,6 @@ h2 {
 
 .navbar {
   background-color: #00adb5;
-  height: 7vh;
 }
 
 .profile-info {
