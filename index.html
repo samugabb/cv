@@ -11,6 +11,8 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
 
+    <script src="typewriter.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
@@ -53,7 +55,10 @@
         </div>
         <div class="col-lg-6 col-md-12">
           <h1 style="padding-top: 7rem;">Mi chiamo Samuele</h1>
-          <h2 style="padding-bottom: 5rem;">e sono un <strong>pro</strong>grammatore</h2>
+          <h2 class="typewrite" data-period="2000" data-type='[ "e sono un programmatore" ]'>
+            <span class="wrap"></span>
+          </h2>
+          <!-- <h2 style="padding-bottom: 5rem;">e sono un <strong>pro</strong>grammatore</h2> -->
         </div
       </div>
 
@@ -77,7 +82,7 @@
     <section id="experiences">
       <h1 style="padding-bottom: 2rem;">Le mie esperienze</h1>
 
-      <div class="row certificates-info">
+      <div class="row certificates-info wow fadeInUp">
         <div class="col-4" style="text-align: right;">
           <img class="certificate-img" src="images/certificate.svg" alt="">
         </div>
@@ -95,9 +100,6 @@
               Nello stesso anno, ho ottenuto l'attestato di <strong>Cisco Networking Academy</strong> per il corso CCNA1.
             </li>
           </ul>
-          <p></p>
-          <p></p>
-          <p></p>
         </div
       </div>
 
@@ -107,7 +109,11 @@
         </div>
         <div class="col-6" style="text-align: right;">
           <h2>Lavoro</h2>
-          <p style="text-align: justify; padding-bottom: 2rem;">Dal 2016 lavoro per <strong>Zucchetti Itaca Srl</strong>, software house di uno dei gestionali per l'HORECA più usati in italia.</p>
+          <p style="text-align: justify; padding-bottom: 2rem;">
+            Dal 2016 lavoro per <strong>Zucchetti Itaca Srl</strong>, software house di uno dei gestionali per l'HORECA più usati in italia.
+            Mi interfaccio direttamente con i clienti ed analizzo le loro richieste, proponendo talvolta soluzioni e sviluppi.
+            Gestisco la rete aziendale e mi occupo dell'infrastruttura VOIP e delle utenze a Dominio.
+          </p>
         </div>
         <div class="col-4" style="text-align: left;">
           <img class="job-img" src="images/job.svg" alt="">
@@ -126,7 +132,11 @@
         </div>
         <div class="col-4">
           <h2 style="text-align: right;">Programmare</h2>
-          <p style="text-align: justify;">L'arte della programmazione mi ha sempre affascinato e divertito, in un mondo in continua evoluzione non si smette mai di imparare.</p>
+          <p style="text-align: justify;">L'arte della programmazione mi ha sempre affascinato e divertito,
+            <strong style="color:#eeeeee;">in un mondo in continua evoluzione non si smette mai di imparare</strong>.
+            Le mie conoscenze in materia sono indirizzate dalla mia stessa curiosità,
+            per questo conosco un po' di tutto.
+          </p>
         </div>
         <div class="col-3">
           <img class="code" src="images/code.svg" alt="">
@@ -142,7 +152,10 @@
         </div>
         <div class="col-4">
           <h2 style="text-align: left;">Migliorare</h2>
-          <p style="text-align: justify;">Ho un forte spirito critico, accompagnato da una forma di perfezionismo. Capisco cosa va migliorato e mi documento sui metodi che non conosco per poterlo fare al meglio.</p>
+          <p style="text-align: justify;">Ho un forte spirito critico, accompagnato da una forma di perfezionismo.
+            Capisco cosa va migliorato e mi documento sui metodi che non conosco per poterlo fare al meglio.
+            <strong style="color:#eeeeee;">Non esiste miglior consiglio di una critica.</strong>
+          </p>
         </div>
       </div>
 
@@ -152,7 +165,10 @@
         </div>
         <div class="col-4">
           <h2 style="text-align: right;">Accettare le sfide</h2>
-          <p style="text-align: justify;">C'è qualcosa di inspiegabilmente attraente in una sfida, soprattutto sapendo che le idee che serviranno per risolverla saranno mie per sempre.</p>
+          <p style="text-align: justify;">C'è qualcosa di inspiegabilmente attraente in una sfida,
+            soprattutto sapendo che <strong style="color:#eeeeee;">le idee che serviranno per risolverla saranno mie per sempre</strong>.
+            Questo sito ne è l'esempio perfetto: fino a poco fa non sapevo mettere insieme HTML e CSS,
+            ed ora eccoci qua!</p>
         </div>
         <div class="col-3">
           <img class="challenge" src="images/challenge.svg" alt="">
@@ -170,39 +186,39 @@
       <div class="skills">
         <h1 style="padding-bottom: 2rem;">Le mie skills</h1>
 
-        <div class="container-sm">
+        <div class="container-fluid">
           <div class="row" style="padding-bottom: 3rem;">
-            <div class="col-md-2 col-6" style="text-align: right; padding:0;">
+            <div class="col-lg-2 col-6" style="text-align: right; padding:0;">
               <p>Windows</p>
               <p>Linux</p>
               <p>Mac OS</p>
               <p>MS Office</p>
             </div>
-            <div class="col-md-2 col-6" style="padding:0;">
+            <div class="col-lg-2 col-6" style="padding:0;">
               <p>⭐⭐⭐⭐⭐</p>
               <p>⭐⭐⭐</p>
               <p>⭐⭐</p>
               <p>⭐⭐⭐⭐⭐</p>
             </div>
-            <div class="col-md-2 col-6" style="text-align: right; padding:0;">
+            <div class="col-lg-2 col-6" style="text-align: right; padding:0;">
               <p>C#</p>
               <p>Python</p>
               <p>Java</p>
               <p>PHP</p>
             </div>
-            <div class="col-md-2 col-6" style="padding:0;">
+            <div class="col-lg-2 col-6" style="padding:0;">
               <p>⭐⭐⭐⭐⭐</p>
               <p>⭐⭐⭐⭐⭐</p>
               <p>⭐⭐⭐⭐</p>
               <p>⭐⭐⭐</p>
             </div>
-            <div class="col-md-2 col-6" style="text-align: right; padding:0;">
+            <div class="col-lg-2 col-6" style="text-align: right; padding:0;">
               <p>HTML</p>
               <p>CSS</p>
               <p>JavaScript</p>
               <p>pazienza</p>
             </div>
-            <div class="col-md-2 col-6" style=" padding:0;">
+            <div class="col-lg-2 col-6" style=" padding:0;">
               <p>⭐⭐⭐⭐⭐</p>
               <p>⭐⭐⭐⭐⭐</p>
               <p>⭐</p>

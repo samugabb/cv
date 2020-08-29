@@ -1,13 +1,9 @@
+/* ELEMENTI */
+
 body {
   line-height: 2rem;
   position: relative;
     color: #eeeeee;
-}
-
-.top-container {
-  background-color: #393e46;
-  /*height: 80vh;*/
-  padding-top: 7vh;
 }
 
 h1 {
@@ -18,6 +14,31 @@ h1 {
 
 h2 {
     font-family: Montserrat;
+}
+
+p {
+  margin-bottom: 0;
+  font-family: Montserrat;
+}
+
+li {
+  font-family: Montserrat;
+}
+
+strong {
+  color: #00adb5;
+}
+/* CLASSI */
+
+/* Barra di Navigazione */
+.navbar {
+  background-color: #00adb5;
+}
+
+/* Banner in alto */
+.top-container {
+  background-color: #393e46;
+  padding-top: 7vh;
 }
 
 .code-top-image {
@@ -31,17 +52,11 @@ h2 {
 .starman-top-image {
   width: 150px;
   position: relative;
-  top: 7%;
+  top: 15%;
   left: 30%;
 }
 
-.workplaces-info {
-  padding-bottom: 2rem;
-}
-
-.navbar {
-  background-color: #00adb5;
-}
+/* Profilo */
 
 .profile-info {
   background-color: #00adb5;
@@ -49,41 +64,23 @@ h2 {
   text-align: center;
 }
 
+/* Esperienze */
 #experiences {
   background-color: #393e46;
-}
-
-#about-me {
-  background-color: #00adb5;
-}
-
-.skills {
-  background-color: #393e46;
-}
-
-.contact-info {
-  background-color: #00adb5;
-}
-
-p {
-  margin-bottom: 0;
-  font-family: Montserrat;
 }
 
 .certificates-info {
   text-align: justify;
 }
 
-li {
-  font-family: Montserrat;
-}
-
-strong {
-  color: #00adb5;
-}
-
 .certificate-img {
   width: 50%;
+}
+
+/* Lavoro */
+.workplaces-info {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 .job-img {
@@ -91,8 +88,9 @@ strong {
   padding-top: 1rem;
 }
 
-.row {
-  margin: 0;
+ /* Passioni */
+#about-me {
+  background-color: #00adb5;
 }
 
 .code {
@@ -105,6 +103,19 @@ strong {
 
 .challenge {
   width: 80%;
+}
+/* Skills */
+.skills {
+  background-color: #393e46;
+}
+
+/* contatti */
+.contact-info {
+  background-color: #00adb5;
+}
+
+.row {
+  margin: 0;
 }
 
 .btn-container {
