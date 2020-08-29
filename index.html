@@ -3,17 +3,21 @@
   <head>
     <meta charset="utf-8">
     <title>Samuele Gabbrielli</title>
+    <!-- FavIcon -->
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👨‍💻</text></svg>">
+    <!-- BootStrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Foglio di Stile locale -->
     <link rel="stylesheet" href="css/styles.css">
-
+    <!-- Google Fonts (Montserrat e Pacifico) -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Pacifico&display=swap" rel="stylesheet">
-
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
-
+    <!-- Script Typewriter -->
     <script src="typewriter.js"></script>
     <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <!-- BootStrap -->
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
   </head>
@@ -55,19 +59,35 @@
         </div>
         <div class="col-lg-6 col-md-12">
           <h1 style="padding-top: 7rem;">Mi chiamo Samuele</h1>
-          <h2>e sono un <h2 class="typewrite" data-period="2000" data-type='[ "programmatore", "sistemista", "PC builder", "tecnico di PC" ]'><span class="wrap"></span>
-            </h2>
-          </h2>
-
-          <!-- <h2 style="padding-bottom: 5rem;">e sono un <strong>pro</strong>grammatore</h2> -->
-        </div
+          <div class="row">
+            <div class="col-6" style="text-align: right; padding: 0 1rem 0 0;">
+              <h2>e sono un </h2>
+            </div>
+            <div class="col-6" style="text-align: left; padding: 0;">
+              <h2 style="font-weight: bold;"
+                  class="typewrite"
+                  data-period="2000"
+                  data-type='[ "programmatore", "sistemista", "PC builder", "tecnico di PC" ]'>
+                  <span class="wrap"></span>
+              </h2>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-0" style="text-align: right;">
+          <img class="airplane" src="images/aircraft.svg" alt="">
+        </div>
       </div>
 
-      <div class="code-container row align-items-end">
-        <div class="col-lg-12">
+      <div class="row align-items-end" style="background-color: #393e46;">
+        <div class="col-sm-3">
+
+        </div>
+        <div class="col-sm-6">
           <img class="code-top-image img-fluid" src="images/code_top.svg" alt="">
         </div>
       </div>
+
+
     </section>
 
     <!-- PROFILE INFO -->
@@ -75,7 +95,11 @@
       <div class="profile-info">
         <h1>Ciao!</h1>
         <img src="https://lh3.googleusercontent.com/a-/AOh14GjXYRf1th4KF03_U6SB_cnTALg8q-eOutzsf-Z0qyI=s96-c-rg-br100" style="padding: 1rem;" alt="">
-        <p>Ho 23 anni e sono follemente innamorato dei computer.</p>
+        <p style="text-align: justify;">Ho 23 anni e sono follemente innamorato dei computer.
+          Amo programmare e sono affascinato dai sistemi e dalle reti.
+          Ho domotizzato tutto ciò che ho in casa, e l'IOT secondo me è il futuro.
+          Credo nell'<strong style="color: #eeeeee;">informatica come migliore amica dell'uomo</strong>.
+        </p>
       </div>
     </section>
 
@@ -92,16 +116,16 @@
           <h2 style="padding-left: 40px;">Istruzione</h2>
           <ul>
             <li>
-              Nel 2014 ho ottenuto il certificato <a href="https://www.trinitycollege.it/"><strong>Trinity Lv.B2</strong></a>.
+              Nel 2014 ho ottenuto il certificato <a target="_blank" href="https://www.trinitycollege.it/"><strong>Trinity Lv.B2</strong></a>.
             </li>
             <li>
-              Nello stesso anno, ho ottenuto l'attestato di <a href="https://www.netacad.com/"><strong>Cisco Networking Academy</strong></a> per il corso CCNA1.
+              Nello stesso anno, ho ottenuto l'attestato di <a target="_blank" href="https://www.netacad.com/"><strong>Cisco Networking Academy</strong></a> per il corso CCNA1.
             </li>
             <li>
-              Mi sono diplomato nel 2015 all'<a href="https://www.istitutofermi.it/"><strong>ITI Enrico Fermi</strong></a> di Lucca.
+              Mi sono diplomato nel 2015 all'<a target="_blank" href="https://www.istitutofermi.it/"><strong>ITI Enrico Fermi</strong></a> di Lucca.
             </li>
           </ul>
-        </div
+        </div>
       </div>
 
       <div class="row workplaces-info">
@@ -111,7 +135,7 @@
         <div class="col-6" style="text-align: right;">
           <h2>Lavoro</h2>
           <p style="text-align: justify; padding-bottom: 2rem;">
-            Dal 2016 lavoro per <a href="https://www.gymgest.it"><strong>Zucchetti Itaca Srl</strong></a>, software house di uno dei gestionali per l'HORECA più usati in italia.
+            Dal 2016 lavoro per <a target="_blank" href="https://www.gymgest.it"><strong>Zucchetti Itaca Srl</strong></a>, software house di uno dei gestionali per l'HORECA più usati in italia.
             Mi interfaccio direttamente con i clienti ed analizzo le loro richieste, proponendo talvolta soluzioni e sviluppi.
             Gestisco la rete aziendale e mi occupo dell'infrastruttura VOIP e delle utenze a Dominio.
           </p>
@@ -121,6 +145,16 @@
         </div>
       </div>
 
+      <div class="row projects-info" style="padding-bottom: 3rem;">
+        <div class="col-4" style="text-align: right;">
+          <img class="projects-img" src="images/projects.svg" alt="">
+        </div>
+
+        <div class="col-6" style="text-align: left;">
+          <h2>Progetti</h2>
+          <p style="text-align: justify;">Durante il mio tempo libero, ho sviluppato <strong>FluxMaster</strong>, un software scritto in <strong>C#</strong> per aiutare gli operatori che si occupano dell'invio dei <strong>Flussi Sanitari</strong>.</p>
+        </div>
+      </div>
     </section>
 
     <!-- ABOUT ME -->

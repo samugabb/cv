@@ -42,7 +42,14 @@ strong {
 }
 
 .code-top-image {
-  width: 60%;
+  width: 40rem;
+}
+
+.airplane {
+  width: 15rem;
+  position: relative;
+  top: 7rem;
+  right: 3rem;
 }
 
 .top-image {
@@ -86,6 +93,14 @@ strong {
 .job-img {
   width: 50%;
   padding-top: 1rem;
+}
+
+/* Progetti */
+.projects-info {
+
+}
+.projects-img {
+  width: 60%;
 }
 
  /* Passioni */
