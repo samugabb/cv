@@ -38,7 +38,7 @@ ul {
   display: none;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 740) {
   .mobileonly {
     display: static;
   }
@@ -89,7 +89,7 @@ ul {
   text-align: left; padding: 0;
 }
 
-@media (max-width:1200px) {
+@media (max-width:1000px) {
   .airplane {
     display: none;
   }
@@ -149,7 +149,7 @@ ul {
   width: 60%;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 900px) {
   .certificate-img {
     width: 100%;
   }
@@ -180,6 +180,7 @@ ul {
 .challenge {
   width: 80%;
 }
+
 /* Skills */
 .skills {
   background-color: #393e46;
@@ -201,4 +202,10 @@ ul {
 
 .copyright {
   background-color: #393e46;
+}
+
+@media (max-width: 900px) {
+  p {
+    font-size: 1rem;
+  }
 }
