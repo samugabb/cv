@@ -38,7 +38,7 @@ ul {
   display: none;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
   .mobileonly {
     display: static;
   }
@@ -89,7 +89,7 @@ ul {
   text-align: left; padding: 0;
 }
 
-@media (max-width:900px) {
+@media (max-width:1200px) {
   .airplane {
     display: none;
   }
@@ -114,7 +114,7 @@ ul {
   text-align: center;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
   .profile-info {
       background-color: #00adb5;
       padding: 0 1rem;
@@ -149,7 +149,7 @@ ul {
   width: 60%;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
   .certificate-img {
     width: 100%;
   }
