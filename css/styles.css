@@ -38,11 +38,11 @@ ul {
   display: none;
 }
 
-/*@media (max-width: 740) {
+@media (max-width: 740) {
   .mobileonly {
     display: static;
   }
-}*/
+}
 
 /* Barra di Navigazione */
 .navbar {
@@ -89,7 +89,7 @@ ul {
   text-align: left; padding: 0;
 }
 
-/*@media (max-width:1000px) {
+@media (max-width:1000px) {
   .airplane {
     display: none;
   }
@@ -105,7 +105,7 @@ ul {
   .typewr {
     text-align: center; padding: 0;
   }
-}*/
+}
 
 /* Profilo */
 .profile-img {
@@ -120,13 +120,13 @@ ul {
   text-align: center;
 }
 
-/*@media (max-width: 1200px) {
+@media (max-width: 1200px) {
   .profile-info {
       background-color: #00adb5;
       padding: 0 1rem;
       text-align: center;
   }
-}*/
+}
 /* Esperienze */
 #experiences {
   background-color: #393e46;
@@ -155,7 +155,7 @@ ul {
   width: 60%;
 }
 
-/*@media (max-width: 900px) {
+@media (max-width: 900px) {
   .certificate-img {
     width: 100%;
   }
@@ -167,7 +167,7 @@ ul {
   .projects-img {
     width: 100%;
   }
-}*/
+}
 
 
  /* Passioni */
@@ -210,8 +210,8 @@ ul {
   background-color: #393e46;
 }
 
-/*@media (max-width: 900px) {
+@media (max-width: 900px) {
   p {
     font-size: 1rem;
   }
-}*/
+}
