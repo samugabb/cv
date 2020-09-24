@@ -122,7 +122,6 @@ ul {
 
 @media (max-width: 991px) {
   .profile-info {
-      background-color: #00adb5;
       padding: 0 1rem;
       text-align: center;
   }
@@ -212,6 +211,9 @@ ul {
 
 @media (max-width: 991px) {
   p {
-    font-size: 1rem;
+    font-size: 5rem;
+  }
+  li {
+	font-size: 1.5rem;
   }
 }
