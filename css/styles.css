@@ -212,8 +212,9 @@ ul {
 @media (max-width: 991px) {
   p {
     font-size: 3rem;
+	line-height: 2rem;
   }
   li {
-	font-size: 1.5rem;
+	font-size: 3rem;
   }
 }
