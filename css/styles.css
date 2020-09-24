@@ -47,6 +47,7 @@ ul {
 /* Barra di Navigazione */
 .navbar {
   background-color: #00adb5;
+  height: 3vh;
 }
 
 /* Banner in alto */
@@ -110,7 +111,7 @@ ul {
 /* Profilo */
 .profile-img {
   padding: 1rem;
-  width: 150px;
+  width: 40%;
   border-radius: 50%;
 }
 
@@ -223,5 +224,8 @@ ul {
   }
   h2 {
 	font-size: 4rem;
+  }
+  .navbar {
+	height: 6vh;
   }
 }
