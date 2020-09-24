@@ -256,4 +256,12 @@ ul {
   .profile-img {
 	width: 40%;
   }
+  .navbar-toggler {
+	width: 15%;
+	height: 60%;
+	margin-right: 1rem;
+  }
+  .navbar-brand {
+	font-size: 100%;
+  }
 }
