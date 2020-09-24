@@ -217,7 +217,7 @@ ul {
   }
   li {
 	font-size: 3rem;
-	line-height: 5rem;
+	line-height: 3rem;
   }
   h1 {
 	font-size: 5rem;
@@ -225,7 +225,13 @@ ul {
   h2 {
 	font-size: 4rem;
   }
+  h3 {
+	font-size: 2rem;
+  }
   .navbar {
 	height: 6vh;
+  }
+  .rating {
+	line-height: 3rem;
   }
 }
