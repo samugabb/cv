@@ -47,7 +47,16 @@ ul {
 /* Barra di Navigazione */
 .navbar {
   background-color: #00adb5;
-  height: 3vh;
+  height: 5vh;
+}
+
+.navbar-collapse {
+	background-color: #00adb5;
+
+}
+
+.form-inline {
+  margin-left: 2rem;
 }
 
 /* Banner in alto */
@@ -58,6 +67,7 @@ ul {
 
 .code-top-image {
   width: 40rem;
+  padding-top: 5rem;
 }
 
 .airplane {
@@ -79,11 +89,13 @@ ul {
 }
 
 .michiamo {
-  padding-top: 7rem;
+  padding: 5rem 0 0 0;
+  margin: 0;
 }
 
 .esonoun {
-  text-align: right; padding: 0 1rem 0 0;
+  text-align: right;
+  padding: 0 1rem 0 3rem;
 }
 
 .typewr {
@@ -111,7 +123,7 @@ ul {
 /* Profilo */
 .profile-img {
   padding: 1rem;
-  width: 40%;
+  width: 20%;
   border-radius: 50%;
 }
 
@@ -229,9 +241,20 @@ ul {
 	font-size: 2rem;
   }
   .navbar {
-	height: 6vh;
+	height: 8vh;
+	padding-left: 0;
+	padding-right: 0;
+  }
+  .navbar-brand {
+	padding-left: 1rem;
+  }
+  .form-inline {
+	margin-left: 0;
   }
   .rating {
 	line-height: 3rem;
+  }
+  .profile-img {
+	width: 40%;
   }
 }
