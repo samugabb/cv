@@ -16,6 +16,10 @@ h2 {
     font-family: Montserrat;
 }
 
+h3 {
+  margin: 0;
+}
+
 p {
   margin-bottom: 0;
   font-family: Montserrat;
@@ -33,15 +37,8 @@ ul {
   padding: 0;
 }
 /* CLASSI */
-
 .mobileonly {
   display: none;
-}
-
-@media (max-width: 991px) {
-  .mobileonly {
-    display: static;
-  }
 }
 
 /* Barra di Navigazione */
@@ -60,6 +57,24 @@ ul {
 }
 
 /* Banner in alto */
+.scaricaCV {
+  padding-top: 5rem;
+  text-align: right;
+  background-color: #393e46;
+  margin: 0;
+}
+
+.scaricaCVh3 {
+  font-size: 1rem;
+  padding: 0 2rem 0 0;
+}
+
+.arrow-img {
+  padding: 0.5rem 2rem 0 0;
+  width: 5rem;
+  fill: #eeeeee;
+}
+
 .top-container {
   background-color: #393e46;
   padding-top: 7vh;
@@ -223,6 +238,9 @@ ul {
 }
 
 @media (max-width: 991px) {
+  .mobileonly {
+    display: block;
+  }
   p {
     font-size: 2rem;
 	line-height: 3rem;
